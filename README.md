@@ -7,6 +7,7 @@ Sample project for use in demos and workshops. It illustrates a basic Cucumber s
 * Linux or Unix environment
 * Bash 4.x installed
 * UTF-8 support installed
+* Python3 installed
 
 ## About the sample application
 
