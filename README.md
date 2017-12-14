@@ -97,7 +97,7 @@ gem install --path vendor/bundle
 
 If you install as ```root``` you'll have to do the whole demo as ```root```. The standard user will not be able to make changes. 
 
-In principle, the project should be in the "start" state when you clone the repo. It's always posslble that someone committed changes from a previous demo and left the files in the "finished" state. A ```bash``` script is provided to reset the files to the "start" state so you can run the demo multiple times. You might want to run it pre-emptively before doing your first demo, just in case.
+In principle, the project should be in the "start" state when you clone the repo. It's always possible that someone committed changes from a previous demo and left the files in the "finished" state. A ```bash``` script is provided to reset the files to the "start" state so you can run the demo multiple times. You might want to run it pre-emptively before doing your first demo, just in case.
 
 ```shell
 cd hellocuke
@@ -122,7 +122,7 @@ Install a specific version of Firefox: [https://ftp.mozilla.org/pub/firefox/rele
 
 ## Running the project
 
-The script ```app/server``` starts a Python SimpleHTTPServer in the ```app``` directory. The server can server static content located in the directory where it is launched. The "application" will be accessible at ```localhost:8000/helloworld.html```.
+The script ```app/server``` starts a Python SimpleHTTPServer in the ```app``` directory. The server can serve static content located in the directory where it is launched. The "application" will be accessible at ```localhost:8000/helloworld.html```.
 
 To start the Xvfb you can run the ```bash``` script provided:
 
