@@ -13,6 +13,5 @@ Feature: Say hello
     | English  |  "Hello, World!"      |
     | Spanish  |  "¡Hola, mundo!"      |
     | Japanese |  "こんにちは世界"       |
-    | Russian  |  "Привет, мир!" |
-    | Italian  |  "Ciao, mondo!" |
+    | Russian  |  "Здравствуйте, мир!" |
  

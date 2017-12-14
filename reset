@@ -10,4 +10,4 @@ cp helloworld-feature.orig helloworld.feature
 cd support
 echo "Restoring features/support/helpers.rb"
 cp helpers-rb.orig helpers.rb
-pupd
+popd
