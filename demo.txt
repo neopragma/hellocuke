@@ -1,0 +1,22 @@
+Setup
+
+1. cp app/helloworld-html.orig to app/helloworld.html
+
+2. cp features/helloworld-feature.orig to features/helloworld.feature
+
+3. cp features/support/helpers-rb.orig to features/support/helpers.rb
+
+4. start the server: app/server
+
+5. if necessary, load rvm
+
+    cd ~
+    source .bash_profile
+
+6. demonstrate the application
+
+7. display stories.txt
+
+8. walk through the process of test-driving the stories one at a time
+
+

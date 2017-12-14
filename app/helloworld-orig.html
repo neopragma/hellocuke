@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript">
+function sayHello(phrase) {
+  document.getElementById("greeting").innerHTML = "<h1>" + phrase + "</h1>";
+}
+</script>
+</head>
+<body>
+<div id="language">
+<h1>Choose a language for the greeting</h1>
+    <form id="language_form">
+      <select id="selector" onchange="javascript:sayHello(this.value)">
+        <option selected="&nbsp;">&nbsp;</option>
+        <option value="Hello, World!">English</option>
+        <option value="¡Hola, mundo!">Espa&ntilde;ol</option>
+        <option value="こんにちは世界">日本語</option>
+        <option value="Здравствуйте, мир!">Русский язык</option>
+      </select>
+    </form>
+</div>
+<div id="greeting"></div>
+</body>
+<script type="text/javascript">
+</script>
+</html>

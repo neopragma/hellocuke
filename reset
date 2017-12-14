@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Resetting project files to their original state"
+echo "Restoring app/helloworld.html"
+pushd app
+cp helloworld-orig.html helloworld.html
+popd
+pushd features
+echo "Restoring features/helloworld.feature"
+cp helloworld-feature.orig helloworld.feature
+cd support
+echo "Restoring features/support/helpers.rb"
+cp helpers-rb.orig helpers.rb
+pupd

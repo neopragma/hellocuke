@@ -1,0 +1,11 @@
+If rvm gets messed up
+
+cd ~
+source .bash_profile
+type rvm | head -n1
+
+If cucumber doesn't find the helloworld.html file, start the server
+
+app/server
+
+

@@ -1,0 +1,9 @@
+Story 1
+
+Make the Russian greeting less formal. Say Привет instead of Здравствуйте.
+
+Story 2
+
+Add support for Italian. Say Ciao mondo!
+
+
